@@ -250,7 +250,7 @@ void MainWindow::createActions()
     refreshPageAction->setIcon(QIcon( QIcon::fromTheme("view-refresh", QPixmap("icons/actions/24/view-refresh.svg")) ));
 
     goToHomePageAction = new QAction("Go to home page", this);
-    goToHomePageAction->setIcon(QIcon( QIcon::fromTheme("go-home", QPixmap("icons/actions/24/go-home.svg")) ));
+    goToHomePageAction->setIcon(QIcon( QIcon::fromTheme("go-home", QPixmap("icons/places/24/user-home.svg")) ));
 
     goToAction = new QAction("Go to this URL", this);
     goToAction->setIcon(QIcon( QIcon::fromTheme("media-playback-start", QPixmap("icons/actions/24/media-playback-start.svg")) ));
